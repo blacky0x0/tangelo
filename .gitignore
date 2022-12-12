@@ -1,0 +1,34 @@
+target/
+tmp/
+*.tmp
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Idea files
+.idea
+.idea_modules
+idea.bat
+*.iml
+stale_outputs_checked
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Tmp files
+*.tmp
+*.log
+/log
+/logs
